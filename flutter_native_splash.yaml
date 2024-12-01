@@ -1,0 +1,10 @@
+# TODO: change splash screen image
+# dart run flutter_native_splash:create --path=./flutter_native_splash.yaml
+
+flutter_native_splash:
+  color: "#ffffff" # Colore di sfondo dello splash screen
+  image: assets/splash_screen.png
+  android: true
+  ios: true
+  web: true
+  fullscreen: true

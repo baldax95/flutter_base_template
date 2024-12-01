@@ -1,0 +1,26 @@
+{
+    "notImplemented": "Non implementato",
+    "@notImplemented": {
+        "description": "Messaggio che indica che una funzionalità non è implementata"
+    },
+    "error": "Errore",
+    "@error": {
+        "description": "Etichetta per mostrare un errore"
+    },
+    "cancel": "Annulla",
+    "@cancel": {
+        "description": "Etichetta del pulsante per annullare un'azione"
+    },
+    "forgotPassword": "Password dimenticata?",
+    "@forgotPassword": {
+        "description": "Etichetta per il pulsante che porta al flusso di reset della password"
+    },
+    "sendLink": "Invia link",
+    "@sendLink": {
+        "description": "Etichetta per il pulsante per inviare il link di reset della password"
+    },
+    "resetLinkSent": "Email per il reset della password inviata con successo",
+    "@resetLinkSent": {
+        "description": "Messaggio che indica che la email per il reset della password è stata inviata"
+    }
+}
