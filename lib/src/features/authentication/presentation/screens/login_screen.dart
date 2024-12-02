@@ -101,7 +101,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> with EmailPasswordVal
               children: [
                 Center(
                   child: Image.asset(
-                    'assets/splash_screen.png',
+                    'assets/images/splash_screen.png',
                     height: 120,
                   ),
                 ),

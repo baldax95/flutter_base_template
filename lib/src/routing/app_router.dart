@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_template/src/features/authentication/presentation/screens/login_screen.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../features/authentication/data/auth_repository.dart';
+import '../features/authentication/presentation/screens/login_screen.dart';
 
 part 'app_router.g.dart';
 
@@ -44,7 +44,14 @@ GoRouter goRouter(Ref ref) {
         path: "/",
         name: AppRoute.home.name,
         // TODO: change with HomeScreen
-        builder: (context, state) => const Scaffold(),
+        builder: (context, state) => Scaffold(
+          appBar: AppBar(
+            title: Text('Title'),
+          ),
+          body: Center(
+            child: Text('Body'),
+          ),
+        ),
       ),
       GoRoute(
         path: "/login",

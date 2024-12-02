@@ -20,6 +20,8 @@ class AppBootstrap {
     // Altre inizializzazioni globali come setup delle date, localizzazione, ecc.
     await initializeDateFormatting('it_IT', null);
     usePathUrlStrategy();
+
+    FlutterNativeSplash.remove();
   }
 
   /// Registra gli handler globali degli errori
